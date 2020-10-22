@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Search</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="viewport" class="ctr-p">
+        <div class="ha">
+            <div class="gl">
+                <a class="gl-a" href="./index.html">
+                    <span class="gl-logo"></span>
+                </a>
+            </div>
+            <div class="lr">
+                <a href="./index.html">Search</a>
+                <a href="./images.html">Images</a>
+                <a href="https://github.com/Dorfieeee" id="github_avatar">Avatar</a>
+                <div></div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="body">
+                <h2 class="atitle">Advanced Search</h2>
+                <form id="aform" action="https://www.google.com/search">
+                    <fieldset class="afieldset">
+                        <legend>
+                            <h3>Find pages with...</h3>
+                        </legend>
+                        <div class="aform-row">
+                            <label for="all-words">all these words:</label>
+                            <input type="text" name="as_q" id="all-words">
+                            <i>Type the important words: tri-colour rat terrier</i>
+                        </div>
+                        <div class="aform-row">
+                            <label for="exact-words">this exact word or phrase:</label>
+                            <input type="text" name="as_epq" id="exact-words">
+                            <i>Put exact words in quotes: "rat terrier"</i>
+                        </div>
+                        <div class="aform-row">
+                            <label for="any-words">any of these words:</label>
+                            <input type="text" name="as_oq" id="any-words">
+                            <i> Type OR between all the words you want: miniature OR standard</i>
+                        </div>
+                        <div class="aform-row">
+                            <label for="none-words">none of these words:</label>
+                            <input type="text" name="as_eq" id="none-words">
+                            <i>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</i>
+                        </div>
+                        <div class="aform-row submit">
+                            <div class="aform-row-gap"></div>
+                            <div class="aform-row-btn">
+                                <input type="submit" name="" value="Advanced Search" id="asubmit-button">
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+                <div class="footer-gap"></div>
+            </div>
+
+
+            <div class="footer">
+                <span class="links-right">
+                    <a href="https://mail.google.com">Privacy</a>
+                    <a href="https://www.google.com/imghp">Terms</a>
+                    <a href="https://www.google.co.uk/intl/en/about/products">Settings</a>
+                </span>
+                <span class="links-left">
+                    <a href="https://about.google">Advertising</a>
+                    <a href="https://store.google.com">Business</a>
+                    <a href="https://store.google.com">How Search works</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
